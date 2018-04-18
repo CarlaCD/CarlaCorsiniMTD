@@ -18,7 +18,8 @@ header .row{
  
 header h1 {
   font-family: 'Nunito', sans-serif;
-  font-weight: 700;
+  font-weight: normal;
+  font-size: 36px;
   margin: 0;
   color: white;
 }
@@ -125,24 +126,27 @@ button:hover{
 
 /* Hobies */
 .hobbies .jumbotron {
-  display: flex;
-  flex-direction: row;
+  display: block;
 }
 .hobbies .jumbotron .circle {
-  display: flex;
-  flex-direction: row; 
-  order:1;
+  display: block;
   margin: 10px;
+  float: left;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: #1FCDCD;
+  padding:30px;
 }
 .hobbies .jumbotron .circle p {
   width: 500px;
   height: 500px;
-  display: block;
+  display: table-cell;
   vertical-align: middle;
   color: #fff;
-  background: #1FCDCD;
+  font-family: 'Nunito', sans-serif;
 }
-@media (max-width: 768px){
+@media (max-width: 1200px){
   .hobbies .jumbotron .circle {
     margin:10px auto;
     float: none;
