@@ -1,0 +1,157 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  padding: 10px 50px;
+}
+
+header {
+  padding: 20px 0; 
+}
+
+header .row{
+  display: flex;
+  align-items: center;
+  background-color:#FF6347;
+  margin: 0;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+ 
+header h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+  
+header nav {
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  justify-content: flex-end;
+}
+  
+header p {
+  font-family: 'Nunito', sans-serif;
+  font-size:20;
+  padding: 0 20px;
+  margin: 0;
+  color:white;
+}
+
+header a:hover{
+  color:white;
+}
+  
+h1{
+  font-family: 'Nunito', sans-serif;
+}
+  
+h3{
+  font-family: 'Nunito', sans-serif; 
+}
+  
+.jumbotron img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  border-radius:50%;
+    width: 380px;
+    height: 300px;
+  margin-top:30px;
+  }
+    
+.buttons{
+  align-items: center;
+  position: relative;
+}
+
+
+button{
+  background-color: #FF6347;
+  border: none;
+  color: white;  
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  border-radius:50%;
+  alignment-adjust:middle;
+  margin-top:30px;
+  width: 120px;
+  height: 120px;
+}
+
+button:hover{
+    background-color:#FFFFFF; 
+    /*border: 2px solid #FF6347;*/
+    color: #FF6347;
+    text-decoration: none;
+  }
+  
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+  background-size: cover;
+  background-color:#EEECE8;
+}
+ 
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  color: black;
+}
+
+.jumbotron h3 {
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  }
+    
+.footer {
+  background-color: #1FCDCD;
+  color: white;
+  position: fixed;
+  left: 0;
+  right:0;
+  bottom: 0;
+  padding: 20px 0;
+  display: inline;
+  justify-content: flex;
+}
+
+
+/* Hobies */
+.hobbies .jumbotron {
+  display: flex;
+  flex-direction: row;
+}
+.hobbies .jumbotron .circle {
+  display: flex;
+  flex-direction: row; 
+  order:1;
+  margin: 10px;
+}
+.hobbies .jumbotron .circle p {
+  width: 500px;
+  height: 500px;
+  display: block;
+  vertical-align: middle;
+  color: #fff;
+  background: #1FCDCD;
+}
+@media (max-width: 768px){
+  .hobbies .jumbotron .circle {
+    margin:10px auto;
+    float: none;
+  }
+}
+@media (max-width: 500px){
+  .hobbies .jumbotron .circle {
+    width: 320px;
+    height: 320px;
+    font-size: 12px;
+  }
+}
