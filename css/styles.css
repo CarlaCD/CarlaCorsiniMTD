@@ -83,7 +83,7 @@ button{
 
 button:hover{
     background-color:#FFFFFF; 
-    /*border: 2px solid #FF6347;*/
+    border: 2px solid #FF6347;
     color: #FF6347;
     text-decoration: none;
   }
